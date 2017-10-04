@@ -1,2 +1,3 @@
 # Simpletrongroup2
-just another school proyect 
+# just another school proyect 
+def
