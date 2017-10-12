@@ -5,7 +5,11 @@ ejecuter=0 #contador
 print("Simpletrol 1.5.9 (bullshit bullshit etc(llenar)/n /n /n")
 Nentry = input(">")
 def entrys(): 
-	if len(Nentry)= 7:
+	if Nentry == ("ejecutar"):
+		return executervalidations(memory)
 	else:
-	return Nentry
+		memory += Nentry
+		Nentry = input(">")
+def executervalidations(p):
+		if len(p) != 7
 	
