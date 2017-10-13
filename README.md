@@ -10,7 +10,7 @@ def memoryxpand():
 print("Simpletrol 1.5.9 (bullshit bullshit etc(llenar)/n /n /n")
 
 def entrys():
-	n = 0
+	n = 0 #cambiar por la posicion de la input
 	Nentry = input("simple>")
 	if Nentry == ("ejecutar"):
 		return memory
