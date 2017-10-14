@@ -20,7 +20,7 @@ def entrys():
 		n+=1
 		return entrys()
 def executervalidations(p):
-		if len(memory[0]) != 7:
+		if len(memory[0]) != 8:
 			return "sintax error"
 		 #iniciar validaciones
 	
