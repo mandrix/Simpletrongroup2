@@ -6,7 +6,7 @@ def memoryxpand():
 	if len(memory)==1000:
 		return memory
 	else:
-		memory.append([])
+		memory.append([0])
 print("Simpletrol 1.5.9 (bullshit bullshit etc(llenar)/n /n /n")
 
 def entrys():
