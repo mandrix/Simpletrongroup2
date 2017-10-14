@@ -7,7 +7,7 @@ def memoryxpand():
 		return memory
 	else:
 		memory.append([0])
-print("Simpletrol 1.5.9 (bullshit bullshit etc(llenar)/n /n /n")
+print("Simpletrol 1.5.9 (bullshit bullshit etc(llenar)")
 
 def entrys():
 	n = 0 #cambiar por la posicion de la input
