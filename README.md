@@ -23,7 +23,7 @@ def entrys():
 def startcharging(p):
 	np = 0
 	if memory[np] != 0:
-		if memory[np]= 99999:
+		if memory[np]== 99999:
 			print (np + ">","-"(memory[np]))
 		else:
 			print (np + ">","+"(memory[np]))
