@@ -13,7 +13,7 @@ def entrys():
 	n = 0 #cambiar por la posicion de la input
 	Nentry = input("simple>")
 	if Nentry == ("ejecutar"):
-		return memory
+		return executervalidations(memory)
 	else:
 		memory[n]=Nentry
 		Nentry = input("simple>")
