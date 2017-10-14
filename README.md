@@ -11,7 +11,7 @@ print("Simpletrol 1.5.9 (bullshit bullshit etc(llenar)")
 
 def entrys():
 	n = 0 #cambiar por la posicion de la input
-	Nentry = input("simple>")
+	Nentry = input(">")#agregar posicion en memoria
 	if Nentry == ("ejecutar"):
 		return executervalidations(memory)
 	else:
@@ -20,7 +20,7 @@ def entrys():
 		n+=1
 		return entrys()
 def executervalidations(p):
-		if len(memory[0]) != 8:
+		if len(memory[0]) != 6:
 			return "sintax error"
 		 #iniciar validaciones
 	
